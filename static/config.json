@@ -1,0 +1,24 @@
+﻿{
+  "name": "333mhz",
+  "contact": {
+    "name": "333mhz | Chen",
+    "github": {
+      "text": "333mhz @ GitHub",
+      "link": "https://github.com/333mhz",
+      "img": "/static/github.svg"
+    },
+    "email": {
+      "text": "asdry789@hotmail.com",
+      "link": "mailto:asdry789@hotmail.com",
+      "img": "/static/email.svg"
+    }
+  },
+  "pages": {
+    "🏠": "/",
+    "📝": "/articles/"
+  },
+  "footer": [
+	"Pages based on BOT Mark & BOT Frame ",
+    "&copy; 2018 BOT Man, <a href='https://github.com/BOT-Man-JL/BOT-Man-JL.github.io'>BOT Mark & BOT Frame</a>"
+  ]
+}
