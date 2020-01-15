@@ -151,7 +151,7 @@ Codex
 - leaf级有两种建造方式，一种是在深空中建造，一种是在地面上建造。
 - 除了leaf级居住生产舰还有Fang级的攻击舰
 
-![ex-invade](ap_codex/ex-invade.webp)
+![ex-invade](ap_codex/ex-invade.jpg)
 #### 0x0d 高维入侵 Extradimension Invade
 - 关于高维入侵
 - 这点是借鉴the 3rd birthday，暂时没什么好讲。
@@ -197,7 +197,7 @@ Codex
 - 但在日常航行中，遭遇至暗是一场灾害。
 - 至暗对深空航行中的给人的意识准备的计算机虚拟空间（大都会， metropolitan，类似matrix世界）有非常巨大的损害。
 
-![Ecumenopolis](ap_codex/ecumenopolos.webp)
+![Ecumenopolis](ap_codex/ecumenopolos.jpg)
 #### 0x14 大都会 Ecumenopolis Metropolitan Matryoshka Brain Matrix Centropolis
 - 关于大都会 Ecumenopolis Metropolitan （Matryoshka Brain 马托里斯卡之脑 小型版）
 - 大都会是一个有计算机做底层硬件，构建出的一个虚拟城市世界。（类似Matix世界）
@@ -221,7 +221,7 @@ Codex
 - 关于相位星球
 - 
 
-![laika](ap_codex/laika.png)
+![laika](ap_codex/laika.jpg)
 #### 0x18 莱卡
 - 我记得有一条狗，叫莱卡(莱卡，俄语中，吠叫的意思）。
 - 60年前，它是第一个进入绕地球轨道的地球生物,也是第一个死在地球之外的生物。“它嗥叫了好长时间”，技术员说：“这太可怕了，一头孤单的狗，单独的在宇宙之中，嗥叫”
