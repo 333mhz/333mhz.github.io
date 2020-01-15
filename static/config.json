@@ -7,6 +7,11 @@
       "link": "https://github.com/333mhz",
       "img": "/static/github.svg"
     },
+	"gitee": {
+      "text": "clock333mhz @ Gitee",
+      "link": "https://clock333mhz.gitee.io/",
+      "img": "/static/share.svg"
+    },
     "email": {
       "text": "asdry789@hotmail.com",
       "link": "mailto:asdry789@hotmail.com",
