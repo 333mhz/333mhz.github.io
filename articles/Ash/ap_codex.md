@@ -1,5 +1,5 @@
 ![codex](ap_codex/codex.jpg)
-Codex
+## 世界 |　Codex
 
 ![nature](http://n.sinaimg.cn/sinacn14/200/w640h360/20180630/0036-hespqrx4604241.jpg)
 #### 0x00 自然法则 Nature Doctrine
@@ -250,10 +250,16 @@ Codex
  
 ![psi](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Psi2.svg/1024px-Psi2.svg.png)
 #### 0x24 灵能 Psion/Shining/Magic 
-- 
+- Psionic灵能神经回路技术
+- FOG（field of ghost）幻域技术
 
 #### 0x25 二维世界与微生物
 -  DNA RNA等可编程序列化分子是二维文明操作三维物质的解决方案。
 - 二维生物通过某种形式将自身的信息转化成DNA RNA等三维世界的可编程物质，从而实现升维。
 - 以可编程DNA RNA分子为内核的三维微生物就是二维生物在三维宇宙航行的载体。
 - 实际在深空中航行的舰群，莫非也是四维世界中的微生物？
+
+#### 0x26 航空器命名 | Aircraft Naming
+- 空天：鹭，鹰，鸢，鹫，骛，鸳，鸯
+- 大气圈：鸿，鸦，鹂，鸥，鸽，鹊，鹃，鹤，鸠，鹉，鸩，鹘，鹏。
+- 独立：雀,燕,蜂,雉,雕,乌,隼,雁。
