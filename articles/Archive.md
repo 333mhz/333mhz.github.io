@@ -11,7 +11,8 @@
 - [幻烬 - 基础设定](Ash/ap_setting.md)
 
 ## 杂 | Miscellaneous
-
+- [流年杂记](misc/mess.md)
+- [the Art of Meditation](misc/Alan_Watts_on_the_Art_of_Meditation.md)
 
 
 

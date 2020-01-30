@@ -44,13 +44,18 @@
 > 
 > Time to wake up  
 > What is reality?  
+> 
 > Obviously...  
 > no one can say  
 > Because it isn't words  
 > It isn't material, that's just an ideaReality is...  
-> The point cannot be explained in words  
+> The point cannot be explained in words 
+>  
 > Im not trying to put you down 
 > It's an expression of you as you are  
+> 
 > One must live...  
+> 
 > We need to survive to go on...  
+> 
 > We must go on
