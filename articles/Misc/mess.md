@@ -1,3 +1,9 @@
+#### 20190815 | Wavefunction Collapse Algorithm
+https://robertheaton.com/2018/12/17/wavefunction-collapse-algorithm/
+
+#### 20190814 | 代码分析工具（安全性存疑）
+https://down.52pojie.cn/Tools/、
+
 #### 20190724 | 马克思主义文库
 https://www.marxists.org/chinese/index.html
 
@@ -56,6 +62,9 @@ http://edu.sina.cn/?sa=t524d351597v1380&from=wap
 
 ####　20190628 | 检验图 - 维基百科  
 https://zh.wikipedia.org/zh-hans/%E6%AA%A2%E9%A9%97%E5%9C%96
+
+####　20190626 | 实用工具站（Q-DIR)
+https://www.softwareok.com/?
 
 #### 20190619
 > 1.为人之道：  
