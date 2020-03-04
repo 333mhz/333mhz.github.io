@@ -3,11 +3,18 @@
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     line-height: 1.5;
-    color: #333;
+    color: #ccc;
     font-family: "Segoe UI", Roboto, BlinkMacSystemFont, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 16px;
     line-height: 1.5;
     word-wrap: break-word;
+    
+    padding: 1em;
+    min-width: 320px;
+    padding: 1em;
+    border-top: 1px solid #66aaff;
+    border-bottom: 1px solid #66aaff;
+    border-radius: 5px;
 }
 
     .markdown-body a {
@@ -78,7 +85,7 @@
     }
 
     .markdown-body a {
-        color: #4078c0;
+        color: #66aaff;
         text-decoration: none;
     }
 
@@ -249,7 +256,7 @@
 
     .markdown-body blockquote {
         padding: 0 1em;
-        color: #777;
+        color: #ccc;
         border-left: 0.25em solid #ddd;
     }
 
@@ -266,7 +273,7 @@
         padding: 3px 5px;
         font-size: 11px;
         line-height: 10px;
-        color: #555;
+        color: #999;
         vertical-align: middle;
         background-color: #fcfcfc;
         border: solid 1px #ccc;

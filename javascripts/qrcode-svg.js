@@ -38,7 +38,7 @@ function qrCodeSVG(text, size) {
     var cellSize = size / qrCode.getModuleCount();
     var rect = 'l' + cellSize + ',0 0,' + cellSize +
         ' -' + cellSize + ',0 0,-' + cellSize + 'z ';
-    var color = '#000000';
+    var color = '#ffffff';
 
     // <svg ...>
     var svg = '';

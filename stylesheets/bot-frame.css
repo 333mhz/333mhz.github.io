@@ -4,7 +4,8 @@
 body {
     font-family: "Segoe UI", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 16px;
-    color: #333;
+    color: #ccc;
+    background: #000;
 }
 
 p, ul, ol, table, pre, dl {
@@ -12,7 +13,7 @@ p, ul, ol, table, pre, dl {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #222;
+    color: #ddd;
     margin: 15px 0 15px;
 }
 
@@ -21,27 +22,27 @@ h1, h2, h3 {
 }
 
 strong {
-    color: #222;
+    color: #ddd;
     font-weight: 700;
 }
 
 a {
-    color: #4078c0;
+    color: #66aaff;
     text-decoration: none;
 }
 
     a > h1, a > h2, a > h3, a > h4, a > h5, a > h6, a > strong {
-        color: #4078c0;
+        color: #66aaff;
     }
 
 blockquote {
-    border-left: 0.25em solid #ddd;
+    border-left: 0.25em solid #222;
     margin: 0;
     padding: 0 0 0 20px;
 }
 
     blockquote strong {
-        color: #777;
+        color: #aaa;
     }
 
 img {
@@ -52,33 +53,42 @@ img {
 
 body {
     padding: 40px 30px 20px;
+    
 }
 
 .wrapper {
     width: 860px;
     margin: 0 auto;
+    
 }
 
 header {
-    width: 230px;
+    min-width: 240px;
+    max-width: 300px;
+    
     float: left;
     position: fixed;
 }
-
+    header:hover p{
+        display: block;
+    }
     header p {
         margin: 5px 0;
+        display: none;
     }
 
     header blockquote p {
         margin: 20px 0 0;
     }
 
+
 footer {
-    font-size: 11px;
-    width: 100%;
+    min-width: 240px;
+    max-width: 300px;
     float: left;
     position: fixed;
     bottom: 5px;
+    font-size: x-small;
 }
 
     footer p {
@@ -107,12 +117,18 @@ section {
 
     header {
         margin-bottom: 20px;
+        padding: 10px;
+        border-top: 1px solid #66aaff;
+        border-bottom: 1px solid #66aaff;
+        border-radius: 5px;
     }
 
     footer {
         margin-top: 20px;
-        border-top: 1px solid #e5e5e5;
-        border-width: 1px 0;
+        padding: 10px;
+        border-top: 1px solid #66aaff;
+        border-bottom: 1px solid #66aaff;
+        border-radius: 5px;
     }
 }
 
@@ -130,12 +146,12 @@ section {
     body {
         padding: 0;
         font-size: 11pt;
-        color: #444;
+        color: #bbb;
     }
 
     .markdown-body {
         font-size: 10pt;
-        color: #222;
+        color: #ddd;
     }
 
         .markdown-body h1 {
@@ -201,7 +217,7 @@ nav a:active {
 }
 
 .cite-note a {
-    color: #333;
+    color: #ccc;
 }
 
 @media print {
