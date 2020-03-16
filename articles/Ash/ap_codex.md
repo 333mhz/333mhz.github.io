@@ -132,6 +132,7 @@
 - 西京    Saikyo
 - 斌斌资本    Bein-Bein Capital
 - 晓星  Hiosang
+- 
 
 
 #### 0x0b 出地球记 Post-Exodus
@@ -216,6 +217,7 @@
 #### 0x16 Gas Planet City
 - 关于气态行星世界
 - 
+
 
 [Root.GetName]报告说我们在[phaseshift_planet.GetName]星系内新获得的星球展现出了一些非同寻常的特性。它被一种只能称之为灵能的能源所包围，[phaseshift_planet.GetName]每单位空间内的量子叠加态数量，超出了至今为止被认为是可能数量的上限。
 每隔三个月，叠加态数量就会达到临界值，使[phaseshift_planet.GetName]经历一次彻底的维度相位转移，它的粒子场将会旋转进另一个维度。该旋转会将一个虚境星球从另一维度转移至我们的维度，然后在下一个周期结束时再次转移回一颗盖亚星球。

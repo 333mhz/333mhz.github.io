@@ -2,16 +2,16 @@
 
 ### 章节设定　｜　Chapter Setting
 
-#### 序 濒海防线 ｜ 0 Littoral Defense
+#### 一 濒海防线 ｜ 1 Littoral Defense
 > 在此，他们相遇。
 
-#### 一 逆空 | 1 Contrary Void
+#### 二 逆空 | 2 Contrary Void
 > 在此，他们诀别。
 
-#### 二 千幻 | 2 Illusioned Away
+#### 三 千幻 | 3 Illusioned Away
 > 在他乡，与他们相遇。
 
-#### 三 天樂 | 3 Azure Doctrine
+#### 四 天樂 | 4 Azure Doctrine
 > 齑万物而不为义（戾）  
 > 泽及万世而不为仁  
 > 长于上古而不为寿   
