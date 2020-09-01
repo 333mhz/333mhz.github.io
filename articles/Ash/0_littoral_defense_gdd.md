@@ -17,7 +17,7 @@ Competitive Product: Unknown
 目标定价：30 RMB  
 Target Price: 5 Dollars  
 难度等级：简单到困难  
-Difficult Level: Easy to Hard  
+Difficult Level: Easy to Very Hard  
 关卡数量：三大章节，每章附数小节  
 Number of Level: (undefine)  
 游戏时间：8-15小时  
