@@ -1,20 +1,25 @@
-## 濒海防线 | Littoral Defense
+## 游星异想 | Aether Daze
 游戏设计文档 | Game Design Document  
-版本0.2 | Version 0.2
+版本0.1 | Version 0.1
 Atelier17th/Pixel kaleido
 
+### 简介
+> 1.指挥部队与来自气星深处的外星怪物战斗
+2.运营浮空小镇，维持部队开支
+3.探索这颗气态行星
+
 ### 介绍　|　Intro/Statement  
-> 游戏名称：濒海防线 
-Game Name：Littoral Defense  
-游戏类型：图像冒险+策略回合 
-Game Type：AVG+SLG+RPG  
-平台：Win10 
-Platform：PC x86 Win10  
+> 游戏名称：游星异想
+Game Name：Aether Daze  
+游戏类型：图像冒险+ATB策略扮演+模拟经营 
+Game Type：AVG+SRPG+SIM
+平台：Win10 NWJS
+Platform：PC x86 Win10 NWJS 
 目标人群：大于12岁的男性群体 
 Target Market：Males，age 12+    
 竞品：未调查  
 Competitive Product: Unknown  
-目标定价：30 RMB  
+目标定价：36 RMB  
 Target Price: 5 Dollars  
 难度等级：简单到困难  
 Difficult Level: Easy to Very Hard  
@@ -24,7 +29,10 @@ Number of Level: (undefine)
 Hours of Play Value: 8-15  
 暴力等级：中度  
 Violence Level: Mild --> Very Violent  
-> 图形重点：2d.pixel,  
+> 图形重点：2d.pixel,
+> 1.角色为平面2D纸片人，SPINE 2D动画
+> 2.地图为正面透视方块构成（类似明日方舟的战斗地图场景）追求素材的重复利用最大化。
+>   
 Graphics Emphasis:  
 ---
 > 主要角色：  
@@ -41,24 +49,22 @@ TongXia(Monster Girl)
 >　额外注释：无
 Additional Note: None
 
-Q-SLG代指Queue-SimuLation Game
+ATB-SRPG指加入了ATB队列的策略角色扮演游戏
 
-1.地图，跟传统SLG一样，平面走格子。
+1.地图，跟传统SRRG一样，平面走格子。
 （参考wargrove、sd gundam g generation和super robot battle，）
 2.角色行动的方式，是按一个时间队列依次进入不同角色行动回合，总体有大回合控制；
- ( 参考WildArm、空之轨迹）
+ ( 参考Tactics_Orge-皇家骑士团2 WildArm、空之轨迹）
 3.行动大致分为三种，1不加延迟的行动，2稍加延迟的行动，3队列延迟极大的行动
 
 4.角色的移动、技能，释放都有行动范围。
 （类似lol、dota2）
 5.角色的被动、攻击方式和技能都是独特的.
 （类似lol、dota2）
-6.没有角色养成系统，每个角色在每局游戏开始时等级一致，但会随时间和击杀的等因子成长。
-（通过这点改善每局游戏节奏感，同时让早上场的角色比后上场的在属性上具有一定优势）
-7.
+
 
 创新点：
-1.在slg大地图基础上改善普通回合制表现力不足和过于公式化的感官感受
+1.在SRPG大地图基础上改善普通回合制表现力不足和过于公式化的感官感受
 2.通过时间队列改善SLG内回合制必须我动敌动的特点，增加爽快感，变相降低难度
 3.技能机制和装备，改变传统RPG技能过于公式化的问题，同时使同一角色在不同装备下拥有不同玩法。
 
@@ -76,53 +82,59 @@ Q-SLG代指Queue-SimuLation Game
 
 单位基本数值
 
-HP：生命值-绿
-（生命值高低会影响攻击能力和行动速度
-（生命值在战场上通常难以恢复
-DEF::AP：护甲值-白
-（可道具恢复
-DEF::SP：护盾值-蓝
-（可自动恢复
+HP-HealthPoint：生命值-绿
+- 生命值高低会影响攻击能力和行动速度
+- 生命值在战场上通常难以恢复
+ARP-ArmorPoint：护甲值-白
+- 可道具按数值恢复
+- 按照数值减少伤害
+SHP-SheildPoint：护盾值-蓝
+- 按数值恢复
+- 每层降低伤害
 
-ATK ：   角色基础攻击属性
-SPD ：    基础行动速度
+ATK-Attack：角色基础攻击属性
+
+ATP：    基础行动速度
 （初期思路（DelayTimeSum/SPD*TechnicalModulus) = DelayTime）
-MOV:     基础移动能力
+MOV-Mobility:     基础移动能力
 
-ORDO:    传统RPG属性的命中暴抗成分将被统一成秩序值。
+<!-- ORDO:    传统RPG属性的命中暴抗成分将被统一成秩序值。
 （此外，秩序值跟一些技能有关联性）
 PERDITIO:传统RPG属性的暴击回避成分将被统一成混乱值。
-（此外，混乱值跟一些技能有关联性）
+（此外，混乱值跟一些技能有关联性） -->
 
-//Dex 命中值
+<!-- //Dex 命中值
 //AGL回避值
 //Critical 暴击值
-//Anti Critical 暴抗值
+//Anti Critical 暴抗值 -->
 double DamageEfficiency
 
 乘于物理系数/能量/热/灵能等
-ORDO：角色秩序能力
+<!-- ORDO：角色秩序能力
 （例如：物理系ordo值高）    
 PERDITIO：角色混乱能力
 （例如：能量系perditio值高）
 Re-ORDO类型
 （例如：物防系reordo值高）
 Re-PERDITIO类型
-（例如：能防系reperditio值高）
+（例如：能防系reperditio值高） -->
 
 技能基本属性
 
 伤害属性-DamageType
+斩（线-斩断）Fracture - 对护盾1.0对护甲1.0对生命2.0
+刺（点-刺穿）Puncture - 对护盾1.0对护甲2.0对生命1.0
+崩（面-崩裂）Rupture  - 对护盾2.0对护甲1.0对生命1.0
 
-Fracture     斩（线-斩断）     ——对护盾B1.2对护甲B1.2对生命A1.6
-Puncture    刺（点-刺穿）     ——对护盾S2.0对护甲B1.2对生命D0.8
-Rupture      崩（面-崩裂）     ——对护盾D0.8对护甲S2.0对生命B1.2
-
-属性系数-DamageModulus（0.0-2.0）
+例:
+1.武器-匕首 攻击范围一格 斩系数0.5刺系数0.5 对护盾x1.0对护甲x1.5对生命x1.5
+1.武器-长刀 攻击范围一格+ 斩系数0.8刺系数0.2 对护盾x1.0对护甲x1.2对生命x1.8
+1.武器-手枪 攻击范围三格 刺系数0.7崩系数0.3 对护盾x1.3对护甲x1.7对生命x1.0
+<!-- 属性系数-DamageModulus（0.0-2.0）
 分5个等级。
 Thermal    热系数（炙热寒冰）——无视一半护甲，依次对护甲和生命造成损伤。同时可赋予持续伤害debuff。存在护甲时，debuff真伤比例低。
-正值为提供一个热量的debuff，可叠加，层数越高，debuff伤害量越高，每次伤害消耗一层。
-负值为提供一个冰冻的debuff，可累计，叠5层，降低敌人行动队列顺序。
+正值为提供一个过热的debuff，可叠加，层数越高，debuff伤害量越高，每次伤害消耗一层。
+负值为提供一个冰冻的debuff，可累计，叠5层，降低敌人行动速度，回避率。
 
 Electron    电系数（电子微观）——无视一半护甲，依次对护盾和生命造成损伤。同时赋予伤害debuff。存在护盾时，debuff真伤比例低。
 正值为提供一个过载的debuff，叠满封锁敌人技能。
@@ -134,7 +146,7 @@ Light         光系数（电磁辐射）——无视护甲，同时对护盾和
 
 Cosmos    暗系数（引力空间）——无视护盾、同时对护甲和生命造成损伤。
 正值为空间压缩，使处于该格的单位可移动距离减少。
-负值为空间扩张，使处于该格的单位受到的伤害增加。
+负值为空间扩张，使处于该格的单位受到的伤害增加。 -->
 
 伤害公式：
 
