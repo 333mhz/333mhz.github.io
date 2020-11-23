@@ -1,12 +1,12 @@
-## 游星异想 | Aether Daze
+## 游星异想 | Aether Daze | Aether Rhapsody
 游戏设计文档 | Game Design Document  
 版本0.1 | Version 0.1
 Atelier17th/Pixel kaleido
 
 ### 简介
 > 1.指挥部队与来自气星深处的外星怪物战斗
-2.运营浮空小镇，维持部队开支
-3.探索这颗气态行星
+> 2.运营浮空小镇，维持部队开支
+> 3.探索这颗气态行星
 
 ### 介绍　|　Intro/Statement  
 > 游戏名称：游星异想
@@ -82,21 +82,40 @@ ATB-SRPG指加入了ATB队列的策略角色扮演游戏
 
 单位基本数值
 
-HP-HealthPoint：生命值-绿
+HP-HealthPoint：
+- 生命值-绿
 - 生命值高低会影响攻击能力和行动速度
 - 生命值在战场上通常难以恢复
-ARP-ArmorPoint：护甲值-白
-- 可道具按数值恢复
-- 按照数值减少伤害
-SHP-SheildPoint：护盾值-蓝
-- 按数值恢复
-- 每层降低伤害
 
-ATK-Attack：角色基础攻击属性
+DP-DefensePoint
+- 只要存在足够的防御值，就会替生命值先承受伤害。
+- 通过装备 技能持有，使用道具恢复。
+- 装甲有类型系数 物理 能量。
+- DP显示颜色为红黄蓝，越偏红代表物理成分越大，越偏蓝代表能量成分越大。
 
-ATP：    基础行动速度
-（初期思路（DelayTimeSum/SPD*TechnicalModulus) = DelayTime）
-MOV-Mobility:     基础移动能力
+EP-EnergyPoint
+- 能量值。
+- 能量值仅在攻击移动使用技能或护盾刷新消耗。
+- 可使用道具或装备在下一回合恢复。
+
+ATK-Attack：
+- 角色基础攻击属性
+
+TEC-Technique
+- 伤害效率计算参数
+
+
+BST-Boost
+-伤害效率计算参数
+
+
+SPD-Speed:
+- 基础行动速度
+- 初期思路：DelaySum/SPD*Modulus = Delays
+
+MOV-Mobility: 基础移动能力
+
+
 
 <!-- ORDO:    传统RPG属性的命中暴抗成分将被统一成秩序值。
 （此外，秩序值跟一些技能有关联性）
@@ -122,9 +141,9 @@ Re-PERDITIO类型
 技能基本属性
 
 伤害属性-DamageType
-斩（线-斩断）Fracture - 对护盾1.0对护甲1.0对生命2.0
-刺（点-刺穿）Puncture - 对护盾1.0对护甲2.0对生命1.0
-崩（面-崩裂）Rupture  - 对护盾2.0对护甲1.0对生命1.0
+斩（线-斩断）Fracture - 对护盾1.0对装甲1.0对生命2.0
+刺（点-刺穿）Puncture - 对护盾1.0对装甲2.0对生命1.0
+崩（面-崩裂）Rupture  - 对护盾2.0对装甲1.0对生命1.0
 
 例:
 1.武器-匕首 攻击范围一格 斩系数0.5刺系数0.5 对护盾x1.0对护甲x1.5对生命x1.5
@@ -239,7 +258,7 @@ COST值决定小队每次出击的资源消耗值
 车-Automata-傀-A
 士-Wizard-术-W
 
-王/后-King/Queen-皇-K/Q
+将/王/后-King/Commander/Queen-皇-C/K/Q
 
 
 
