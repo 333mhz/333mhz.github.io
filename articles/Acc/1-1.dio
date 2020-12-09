@@ -1,16 +1,16 @@
-<mxfile host="65bd71144e" modified="2020-11-15T02:38:09.983Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.51.1 Chrome/83.0.4103.122 Electron/9.3.3 Safari/537.36" etag="L1ggVtuaDJ2LIfjpkTEx" version="13.6.5">
+<mxfile host="65bd71144e" modified="2020-11-23T09:52:31.267Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.51.1 Chrome/83.0.4103.122 Electron/9.3.3 Safari/537.36" etag="mARYBKJOMe65VAe9DKrf" version="13.6.5">
     <diagram id="kC1L-6lInjhi6nrJREOj" name="Page-1">
-        <mxGraphModel dx="2014" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="612" dy="367" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="273" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="179" y="765" width="90" height="60" as="geometry"/>
+                <mxCell id="273" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="179" y="800" width="90" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="272" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="272" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="179" y="685" width="90" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="263" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="263" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="700" y="360" width="100" height="165" as="geometry"/>
                 </mxCell>
                 <mxCell id="83" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fillColor=none;" parent="1" vertex="1">
@@ -471,29 +471,29 @@
                 <mxCell id="258" value="及时性" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="709" y="500" width="50" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="274" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="264" target="272">
+                <mxCell id="274" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="264" target="272" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="276" value="财务状况" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="274">
+                <mxCell id="276" value="财务状况" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="274" vertex="1" connectable="0">
                     <mxGeometry x="0.7156" y="1" relative="1" as="geometry">
                         <mxPoint x="-6" y="21" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="275" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="264" target="273">
+                <mxCell id="275" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="264" target="273" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="277" value="经营成果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="275">
+                <mxCell id="277" value="经营成果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="275" vertex="1" connectable="0">
                     <mxGeometry x="0.7168" y="-2" relative="1" as="geometry">
                         <mxPoint x="-6" y="-22" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="264" value="要素" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;shadow=1;" vertex="1" parent="1">
-                    <mxGeometry x="79" y="745" width="40" height="20" as="geometry"/>
+                <mxCell id="264" value="要素" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="79" y="770" width="40" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="265" value="确认条件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;shadow=1;" vertex="1" parent="1">
+                <mxCell id="265" value="确认条件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="739" y="720" width="60" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="287" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="266" target="285">
+                <mxCell id="287" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="266" target="285" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="260" y="670"/>
@@ -501,50 +501,90 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="266" value="资产" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;shadow=1;" vertex="1" parent="1">
+                <mxCell id="266" value="资产" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="199" y="685" width="40" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="302" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="267" target="291">
+                <mxCell id="302" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="267" target="291" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="267" value="负债" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;shadow=1;" vertex="1" parent="1">
+                <mxCell id="267" value="负债" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="199" y="705" width="40" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="268" value="所有者权益" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;shadow=1;" vertex="1" parent="1">
+                <mxCell id="310" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.008;entryY=0.609;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="268" target="309">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="268" value="所有者权益" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="179" y="725" width="80" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="269" value="收入" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;shadow=1;" vertex="1" parent="1">
-                    <mxGeometry x="199" y="765" width="40" height="20" as="geometry"/>
+                <mxCell id="322" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;align=left;" edge="1" parent="1" source="269">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="320" y="830" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="270" value="费用" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;shadow=1;" vertex="1" parent="1">
-                    <mxGeometry x="199" y="785" width="40" height="20" as="geometry"/>
+                <mxCell id="269" value="收入" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="204" y="820" width="40" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="271" value="利润" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;shadow=1;" vertex="1" parent="1">
-                    <mxGeometry x="199" y="805" width="40" height="20" as="geometry"/>
+                <mxCell id="323" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;align=left;" edge="1" parent="1" source="270">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="320" y="850" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="303" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="285" target="288">
+                <mxCell id="270" value="费用" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="204" y="840" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="271" value="利润" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="204" y="800" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="303" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;align=left;" parent="1" source="285" target="288" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="285" value="1.企业拥有权利&lt;br&gt;2.有利益产生&lt;br&gt;3.由过去产生" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;shadow=1;" vertex="1" parent="1">
+                <mxCell id="285" value="1.企业拥有权利&lt;br&gt;2.有利益产生&lt;br&gt;3.由过去产生" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="410" y="635" width="100" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="288" value="1.利益流入&lt;br&gt;2.价值能计量" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;shadow=1;" vertex="1" parent="1">
-                    <mxGeometry x="555" y="645" width="90" height="30" as="geometry"/>
+                <mxCell id="288" value="1.利益流入&lt;br&gt;2.价值能计量" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="574" y="645" width="90" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="304" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.011;entryY=0.667;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="291" target="292">
+                <mxCell id="304" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.011;entryY=0.667;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" parent="1" source="291" target="292" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="291" value="1.企业承担义务&lt;br&gt;2.有利益流出&lt;br&gt;3.由过去产生" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;shadow=1;" vertex="1" parent="1">
+                <mxCell id="291" value="1.企业承担义务&lt;br&gt;2.有利益流出&lt;br&gt;3.由过去产生" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="410" y="690" width="100" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="292" value="1.利益流出&lt;br&gt;2.价值能计量" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;shadow=1;" vertex="1" parent="1">
-                    <mxGeometry x="555" y="695" width="90" height="30" as="geometry"/>
+                <mxCell id="292" value="1.利益流出&lt;br&gt;2.价值能计量" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;shadow=1;" parent="1" vertex="1">
+                    <mxGeometry x="574" y="695" width="90" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="293" value="流动——一年内到期" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;shadow=1;" vertex="1" parent="1">
+                <mxCell id="293" value="流动——一年内到期" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="280" y="675" width="120" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="294" value="非流动——长期持有" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;shadow=1;" vertex="1" parent="1">
+                <mxCell id="294" value="非流动——长期持有" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;shadow=1;" parent="1" vertex="1">
                     <mxGeometry x="280" y="695" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="316" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.024;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" edge="1" parent="1" source="309" target="312">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="309" value="所有者权益=资产-负债" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;shadow=1;" vertex="1" parent="1">
+                    <mxGeometry x="395" y="740" width="130" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="312" value="1.投资者投入的资产&lt;br&gt;2.符合资产确认条件&lt;br&gt;3.价值能计量" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;shadow=1;" vertex="1" parent="1">
+                    <mxGeometry x="574" y="725" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="318" value="企业与客户的合同 满足以下&lt;br&gt;1.被各方批准&lt;br&gt;2.明确权力义务&lt;br&gt;3.明确的商品转让或支付条款&lt;br&gt;4.有商业实质&lt;br&gt;5.履行后有权取得的对价，很有可能回收" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;shadow=1;" vertex="1" parent="1">
+                    <mxGeometry x="574" y="785" width="230" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="320" value="1.经济利益&lt;br&gt;2.所有者权益" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;shadow=1;" vertex="1" parent="1">
+                    <mxGeometry x="414" y="825" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="328" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.02;entryY=0.517;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" edge="1" parent="1" source="325" target="320">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="325" value="1.日常活动" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;shadow=1;" vertex="1" parent="1">
+                    <mxGeometry x="319" y="830" width="70" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="327" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.004;entryY=0.733;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" edge="1" parent="1" source="326" target="318">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="326" value="&lt;div style=&quot;&quot;&gt;&lt;span&gt;合同的商业实质&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span&gt;合同将改变企业未来的现金流&lt;/span&gt;&lt;/div&gt;风险，时间分布或金额" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;shadow=1;" vertex="1" parent="1">
+                    <mxGeometry x="589" y="920" width="170" height="50" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
