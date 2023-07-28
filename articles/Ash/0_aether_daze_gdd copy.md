@@ -39,9 +39,9 @@ Graphics Emphasis:  Pixel+Spine
 2.尤利欧（灵能男孩）   
 3.桐夏（怪物女孩）  
 Main Character:   
-Jelly(Soldier Boy),    
+Jelly(Pilot Boy),    
 Yurio(Psi Boy),  
-TongXia(Monster Girl)  
+TongXia(Parasited Girl)  
 ---
 >　额外注释：无
 Additional Note: None
