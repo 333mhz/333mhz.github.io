@@ -15,16 +15,16 @@
 - 第一层：通用树
 - 第二层：出现不同领域的枝干，而且分枝交叉的越来越少。
 - 第三层：出现不同领域的技术奇点，跨过奇点后，进入截然不同的领域。
-- 关键词：机械、基因、灵能、分子级机械体（原分子proto-molecular）、金属态生命体（ELS)、混沌意识（Warhammer40K)、肉山（星际虫族）、意识物质化（精神力框架）、沙丘世界
+- 关键词：机械、基因、灵能、分子级机械体（原分子proto-molecular）、金属态生命体（ELS)、混沌意识（Warhammer40K)、肉山（星际虫族）、意识物质化（精神力框架）、沙丘世界（无AI路线）
 
 
 
 #### 资源设计：
-- 一级通用资源：1.1线型能源power_supples 1.2矿物mineral 1.3水源water_source
+- 一级通用资源：1.1能源供应power_supples 1.2矿物mineral 1.3水源water_source
 - 一级稀有资源：
-- 二级通用资源：2.1单元能源energy_pack 2.2合金alloy 2.3食物food 2.4消费品consumer_good
+- 二级通用资源：2.1能源宝energy_pack 2.2合金alloy 2.3食物food 2.4消费品consumer_good
 - 二级稀有资源：
-- 三级通用资源：3.1通用能源货币energy_credit 3.2文化点数culture_point 3.3外在影响outward_influence
+- 三级通用资源：3.1能源币energy_credit 3.2文化点数culture_point 3.3影响力influence
 - 三级稀有资源：
 - 四级
 - 五级

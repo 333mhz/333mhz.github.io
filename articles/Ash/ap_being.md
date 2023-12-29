@@ -21,7 +21,7 @@
 > 立绘1：
 在高楼间，坠落
 
-#### 0x05 掌握曲率技术最后一块碎片的男孩 | undefine(technical boy)
+#### 0x05 掌握曲率技术碎片的男孩 | undefine(technical boy)
 > 立绘1：
 星辰，法则，他
 
